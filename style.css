@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.wholeProfile{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 90%;
+    /* box-shadow: 5px 5px 5px 5px gray; */
+    border-radius: 2px ;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* border: 1px solid var(--text-color-level3,rgba(26,26,26,0.1));
+    border-radius: 8px;
+    box-shadow: 0 1px 8px 0 rgb(0 0 0/8%); */
+    
+}
+
+.upPart__text_gray, .upPart__text_black{
+    font-family: proxima nova,sans-serif;
+    /* -webkit-text-size-adjust: 100%; */
+    
+}
+
+.upPart__text_gray{
+    color: var(--text-color-level2,rgba(26,26,26,0.61));
+    font-size: 16px;
+}
+
+svg {
+    fill: var(--text-color-level2,rgba(26,26,26,0.61));
+  }
+
+  .upPart__names{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .upPart__acts{
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .upPart__svg_clock, .upPart__svg_cam{
+    width: 30px;
+    height: 30px;
+    margin-left: 32px;
+    margin-right: 8px;
+    
+  }
+
+  /* downpart */
+
+  .downPart{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* media */
+
+  @media (max-width: 600px) {
+    .upPart__text_gray, .upPart__text_black{
+        font-family: proxima nova,sans-serif;
+        font-size: 10px;
+        
+    }
+    .upPart__svg_clock, .upPart__svg_cam{
+        width: 24px;
+        height: 24px;
+        margin-left: 20px;
+        margin-right: 8px;
+        
+      }
+      .upPart__acts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        
+      }
+      .clockText{
+        white-space: nowrap;
+      }
+  }
+
+  @media (max-width: 768px) {
+    .upPart__text_gray, .upPart__text_black{
+        font-family: proxima nova,sans-serif;
+        font-size: 10px;
+        
+    }
+    .upPart__svg_clock, .upPart__svg_cam{
+        width: 24px;
+        height: 24px;
+        margin-left: 20px;
+        margin-right: 8px;
+        
+      }
+      .upPart__acts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        
+      }
+      .clockText{
+        white-space: nowrap;
+      }
+  }
+
+  @media (max-width: 1200px) {
+    .upPart__text_gray, .upPart__text_black{
+        font-family: proxima nova,sans-serif;
+        font-size: 10px;
+        
+    }
+    .upPart__svg_clock, .upPart__svg_cam{
+        width: 24px;
+        height: 24px;
+        margin-left: 20px;
+        margin-right: 8px;
+        
+      }
+      .upPart__acts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        
+      }
+      .clockText{
+        white-space: nowrap;
+      }
+  }
